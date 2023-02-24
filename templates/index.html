@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ML heart attack predictor</title>
+    <link rel="stylesheet" href="./static/style_app.css" />
+  </head>
+  <body>
+<div>
+    <p>Fill out details about your heart health</p>
+    <form method="POST">
+        </fieldset>
+      <label for="sex"
+        >Please Enter sex
+        <input type="text" id="sex" name="sex" required />
+      </label>
+      <label for="cp"
+        >Please Enter cp
+        <input type="text" id="cp" name="cp" required />
+      </label>
+      <label for="trtbps"
+        >Please Enter trtbps
+        <input type="text" id="trtbp" name="trtbps" required />
+      </label>
+      <label for="cho"
+        >Please Enter cho
+        <input type="text" id="cho" name="chol" required />
+      </label>
+      <label for="fbs"
+        >Please Enter fbs
+        <input type="text" id="fbs" name="fbs" required />
+      </label>
+      <label for="restecg"
+        >Please Enter restecg
+        <input type="text" id="restecg" name="restecg" required />
+      </label>
+      <label for="thalachh"
+        >Please Enter thalachh
+        <input type="text" id="thalachh" name="thalachh" required />
+      </label>
+      <label for="exng"
+        >Please Enter exng
+        <input type="text" id="exng" name="exng" required />
+      </label>
+      <label for="oldpeak"
+        >Please Enter oldpeak
+        <input type="text" id="oldpeak" name="oldpeak" required />
+      </label>
+      <label for="slp"
+        >Please Enter slp
+        <input type="text" id="slp" name="slp" required />
+      </label>
+      <label for="caa"
+        >Please Enter slp
+        <input type="text" id="caa" name="caa" required />
+      </label>
+      <label for="thall"
+        >Please Enter thall
+        <input type="text" id="thall" name="thall" required />
+      </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+</div>
+<div>
+    <p>Prediction of heart attack: {{output}}</p>
+</div>
+  </body>
+</html>
